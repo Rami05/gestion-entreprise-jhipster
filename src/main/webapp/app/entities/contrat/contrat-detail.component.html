@@ -1,0 +1,33 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="contrat">
+            <h2><span jhiTranslate="jhipsterApp.contrat.detail.title">Contrat</span> {{contrat.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.contrat.reference">Reference</span></dt>
+                <dd>
+                    <span>{{contrat.reference}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.contrat.employe">Employe</span></dt>
+                <dd>
+                    <div *ngIf="contrat.employeId">
+                        <a [routerLink]="['/employe', contrat.employeId, 'view']">{{contrat.employeNom}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/contrat', contrat.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

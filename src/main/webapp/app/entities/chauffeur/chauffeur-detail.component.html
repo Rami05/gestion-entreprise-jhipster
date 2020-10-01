@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="chauffeur">
+            <h2><span jhiTranslate="jhipsterApp.chauffeur.detail.title">Chauffeur</span> {{chauffeur.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.chauffeur.identite">Identite</span></dt>
+                <dd>
+                    <span>{{chauffeur.identite}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.chauffeur.cin">Cin</span></dt>
+                <dd>
+                    <span>{{chauffeur.cin}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.chauffeur.permis_de_conduit">Permis De Conduit</span></dt>
+                <dd>
+                    <div *ngIf="chauffeur.permis_de_conduitId">
+                        <a [routerLink]="['/permis-de-conduit', chauffeur.permis_de_conduitId, 'view']">{{chauffeur.permis_de_conduitNum_permis}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/chauffeur', chauffeur.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

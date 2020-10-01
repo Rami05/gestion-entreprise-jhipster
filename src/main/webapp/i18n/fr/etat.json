@@ -1,0 +1,10 @@
+{
+    "jhipsterApp": {
+        "Etat": {
+            "null": "",
+            "VERT": "VERT",
+            "ROUGE": "ROUGE",
+            "ORANGE": "ORANGE"
+        }
+    }
+}

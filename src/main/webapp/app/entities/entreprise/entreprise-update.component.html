@@ -1,0 +1,55 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-entreprise-heading" jhiTranslate="jhipsterApp.entreprise.home.createOrEditLabel">Create or edit a Entreprise</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!entreprise.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="entreprise.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.entreprise.raison_social" for="field_raison_social">Raison Social</label>
+                    <input type="text" class="form-control" name="raison_social" id="field_raison_social"
+                        [(ngModel)]="entreprise.raison_social" required/>
+                    <div [hidden]="!(editForm.controls.raison_social?.dirty && editForm.controls.raison_social?.invalid)">
+                        <small class="form-text text-danger"
+                        [hidden]="!editForm.controls.raison_social?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.entreprise.chiffre_affaire" for="field_chiffre_affaire">Chiffre Affaire</label>
+                    <input type="number" class="form-control" name="chiffre_affaire" id="field_chiffre_affaire"
+                        [(ngModel)]="entreprise.chiffre_affaire" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.entreprise.gerant" for="field_gerant">Gerant</label>
+                    <input type="text" class="form-control" name="gerant" id="field_gerant"
+                        [(ngModel)]="entreprise.gerant" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.entreprise.secteur" for="field_secteur">Secteur</label>
+                    <input type="text" class="form-control" name="secteur" id="field_secteur"
+                        [(ngModel)]="entreprise.secteur" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.entreprise.siege" for="field_siege">Siege</label>
+                    <input type="text" class="form-control" name="siege" id="field_siege"
+                        [(ngModel)]="entreprise.siege" />
+                </div>
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

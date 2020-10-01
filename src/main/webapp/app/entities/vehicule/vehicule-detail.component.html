@@ -1,0 +1,33 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="vehicule">
+            <h2><span jhiTranslate="jhipsterApp.vehicule.detail.title">Vehicule</span> {{vehicule.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.vehicule.identifiant">Identifiant</span></dt>
+                <dd>
+                    <span>{{vehicule.identifiant}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.vehicule.chauffeur">Chauffeur</span></dt>
+                <dd>
+                    <span *ngFor="let chauffeur of vehicule.chauffeurs; let last = last">
+                        <a [routerLink]="['/chauffeur', chauffeur?.id, 'view' ]">{{chauffeur.identite}}</a>{{last ? '' : ', '}}
+                    </span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/vehicule', vehicule.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

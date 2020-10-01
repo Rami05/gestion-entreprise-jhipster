@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="cOMMANDE_PRODUIT">
+            <h2><span jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.detail.title">COMMANDE PRODUIT</span> {{cOMMANDE_PRODUIT.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.dateCreation">Date Creation</span></dt>
+                <dd>
+                    <span>{{cOMMANDE_PRODUIT.dateCreation}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.dateModification">Date Modification</span></dt>
+                <dd>
+                    <span>{{cOMMANDE_PRODUIT.dateModification}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.etat">Etat</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'jhipsterApp.Etat.' + cOMMANDE_PRODUIT.etat}}">{{cOMMANDE_PRODUIT.etat}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/commande-produit', cOMMANDE_PRODUIT.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

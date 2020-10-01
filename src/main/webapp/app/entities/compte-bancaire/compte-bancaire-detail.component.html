@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="compte_bancaire">
+            <h2><span jhiTranslate="jhipsterApp.compte_bancaire.detail.title">Compte Bancaire</span> {{compte_bancaire.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.compte_bancaire.rib">Rib</span></dt>
+                <dd>
+                    <span>{{compte_bancaire.rib}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.compte_bancaire.agence">Agence</span></dt>
+                <dd>
+                    <span>{{compte_bancaire.agence}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/compte-bancaire', compte_bancaire.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

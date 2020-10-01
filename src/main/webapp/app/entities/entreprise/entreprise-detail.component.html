@@ -1,0 +1,43 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="entreprise">
+            <h2><span jhiTranslate="jhipsterApp.entreprise.detail.title">Entreprise</span> {{entreprise.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.entreprise.raison_social">Raison Social</span></dt>
+                <dd>
+                    <span>{{entreprise.raison_social}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.entreprise.chiffre_affaire">Chiffre Affaire</span></dt>
+                <dd>
+                    <span>{{entreprise.chiffre_affaire}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.entreprise.gerant">Gerant</span></dt>
+                <dd>
+                    <span>{{entreprise.gerant}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.entreprise.secteur">Secteur</span></dt>
+                <dd>
+                    <span>{{entreprise.secteur}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.entreprise.siege">Siege</span></dt>
+                <dd>
+                    <span>{{entreprise.siege}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/entreprise', entreprise.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

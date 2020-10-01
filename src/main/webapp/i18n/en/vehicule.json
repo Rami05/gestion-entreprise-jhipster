@@ -1,0 +1,22 @@
+{
+    "jhipsterApp": {
+        "vehicule": {
+            "home": {
+                "title": "Vehicules",
+                "createLabel": "Create a new Vehicule",
+                "createOrEditLabel": "Create or edit a Vehicule"
+            },
+            "created": "A new Vehicule is created with identifier {{ param }}",
+            "updated": "A Vehicule is updated with identifier {{ param }}",
+            "deleted": "A Vehicule is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Vehicule {{ id }}?"
+            },
+            "detail": {
+                "title": "Vehicule"
+            },
+            "identifiant": "Identifiant",
+            "chauffeur": "Chauffeur"
+        }
+    }
+}

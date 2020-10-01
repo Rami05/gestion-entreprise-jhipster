@@ -1,0 +1,23 @@
+{
+    "jhipsterApp": {
+        "permis_de_conduit": {
+            "home": {
+                "title": "Permis_de_conduits",
+                "createLabel": "Créer un nouveau Permis De Conduit",
+                "createOrEditLabel": "Créer ou éditer un Permis De Conduit"
+            },
+            "created": "Un nouveau Permis De Conduit a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Permis De Conduit avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Permis De Conduit avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Permis De Conduit {{ id }} ?"
+            },
+            "detail": {
+                "title": "Permis De Conduit"
+            },
+            "num_permis": "Num Permis",
+            "copie_permis": "Copie Permis",
+            "chauffeur": "Chauffeur"
+        }
+    }
+}

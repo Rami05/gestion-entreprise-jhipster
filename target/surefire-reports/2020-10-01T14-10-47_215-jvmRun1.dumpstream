@@ -1,0 +1,1222 @@
+# Created at 2020-10-01T16:29:22.881
+Unexpected IOException with stream: 2020-10-01 16:29:19.179  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:29:33.807
+Unexpected IOException with stream: 2020-10-01 16:29:29.710  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:29:39.715
+Unexpected IOException with stream: 2020-10-01 16:29:37.012  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:29:54.340
+Unexpected IOException with stream: 2020-10-01 16:29:54.221 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@12a99b9] to prepare test instance [com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest@5453c8f1]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:29:54.455
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,deletePermis_de_conduit(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:29:54.455
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,deletePermis_de_conduit(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,Java heap space,null,Java heap space,Permis_de_conduitResourceIntTest.deletePermis_de_conduit \00BB OutOfMemory Java he...,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:30:28.870
+Unexpected IOException with stream: 2020-10-01 16:30:26.948  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:30:33.855
+Unexpected IOException with stream: 2020-10-01 16:30:30.755  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:30:38.983
+Unexpected IOException with stream: 2020-10-01 16:30:36.362  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:30:46.153
+Unexpected IOException with stream: 2020-10-01 16:30:43.287  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:30:50.288
+Unexpected IOException with stream: 2020-10-01 16:30:47.977  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:30:56.578
+Unexpected IOException with stream: 2020-10-01 16:30:54.022  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:31:06.193
+Unexpected IOException with stream: 2020-10-01 16:31:00.970  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:31:34.231
+Unexpected IOException with stream: 2020-10-01 16:31:34.231 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@12a99b9] to prepare test instance [com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest@5d96f60c]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:31:34.353
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,updateNonExistingPermis_de_conduit(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:31:34.353
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,updateNonExistingPermis_de_conduit(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,Java heap space,null,Java heap space,Permis_de_conduitResourceIntTest.updateNonExistingPermis_de_conduit \00BB OutOfMemory,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:32:09.843
+Unexpected IOException with stream: 2020-10-01 16:32:05.407  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:32:17.062
+Unexpected IOException with stream: 2020-10-01 16:32:11.726  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:32:22.108
+Unexpected IOException with stream: 2020-10-01 16:32:18.450  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:32:28.062
+Unexpected IOException with stream: 2020-10-01 16:32:24.562  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:32:34.251
+Unexpected IOException with stream: 2020-10-01 16:32:30.283  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:32:46.446
+Unexpected IOException with stream: 2020-10-01 16:32:42.870  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:32:54.871
+Unexpected IOException with stream: 2020-10-01 16:32:51.760  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:00.118
+Unexpected IOException with stream: 2020-10-01 16:32:56.667  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:08.063
+Unexpected IOException with stream: 2020-10-01 16:33:01.291  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropForeignKeyConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:22.327
+Unexpected IOException with stream: 2020-10-01 16:33:20.007  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:27.342
+Unexpected IOException with stream: 2020-10-01 16:33:23.911  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropNotNullConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:33.159
+Unexpected IOException with stream: 2020-10-01 16:33:30.640  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropPrimaryKeyChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:47.197
+Unexpected IOException with stream: 2020-10-01 16:33:47.077 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@12a99b9] to prepare test instance [com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest@7f053aa6]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:33:47.197
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,createPermis_de_conduitWithExistingId(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:33:47.315
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,createPermis_de_conduitWithExistingId(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,Java heap space,null,Java heap space,Permis_de_conduitResourceIntTest.createPermis_de_conduitWithExistingId \00BB OutOfMemory,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:34:18.404
+Unexpected IOException with stream: 2020-10-01 16:34:14.864  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:34:25.455
+Unexpected IOException with stream: 2020-10-01 16:34:20.250  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:34:31.753
+Unexpected IOException with stream: 2020-10-01 16:34:26.710  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:34:43.680
+Unexpected IOException with stream: 2020-10-01 16:34:37.641  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:34:50.950
+Unexpected IOException with stream: 2020-10-01 16:34:47.640  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:34:58.280
+Unexpected IOException with stream: 2020-10-01 16:34:55.065  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:35:05.151
+Unexpected IOException with stream: 2020-10-01 16:35:01.299  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:35:10.644
+Unexpected IOException with stream: 2020-10-01 16:35:07.189  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:35:19.840
+Unexpected IOException with stream: 2020-10-01 16:35:14.940  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropForeignKeyConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:35:32.183
+Unexpected IOException with stream: 2020-10-01 16:35:28.438  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:35:40.232
+Unexpected IOException with stream: 2020-10-01 16:35:34.658  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropNotNullConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:35:49.027
+Unexpected IOException with stream: 2020-10-01 16:35:44.741  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropPrimaryKeyChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:36:07.575
+Unexpected IOException with stream: 2020-10-01 16:36:07.575 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@12a99b9] to prepare test instance [com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest@71d63be5]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:36:07.694
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,testEntityFromId(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:36:07.694
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,testEntityFromId(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,Java heap space,null,Java heap space,Permis_de_conduitResourceIntTest.testEntityFromId \00BB OutOfMemory Java heap spac...,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:36:41.344
+Unexpected IOException with stream: 2020-10-01 16:36:35.739  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:36:45.763
+Unexpected IOException with stream: 2020-10-01 16:36:42.851  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:36:54.642
+Unexpected IOException with stream: 2020-10-01 16:36:48.219  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:37:04.169
+Unexpected IOException with stream: 2020-10-01 16:36:56.038  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:37:14.678
+Unexpected IOException with stream: 2020-10-01 16:37:08.136  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:37:27.359
+Unexpected IOException with stream: 2020-10-01 16:37:20.858  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:37:35.009
+Unexpected IOException with stream: 2020-10-01 16:37:35.009 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@12a99b9] to prepare test instance [com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest@1c7b59b5]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:37:35.128
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,getAllPermis_de_conduits(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:37:35.128
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,getAllPermis_de_conduits(com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest),null,Java heap space,null,Java heap space,Permis_de_conduitResourceIntTest.getAllPermis_de_conduits \00BB OutOfMemory Java h...,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:37:35.128
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.mycompany.myapp.web.rest.Permis_de_conduitResourceIntTest,null,null,null
+
+
+# Created at 2020-10-01T16:37:35.248
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.mycompany.myapp.web.rest.ProduitResourceIntTest,null,null,null
+
+
+# Created at 2020-10-01T16:38:31.914
+Unexpected IOException with stream: 2020-10-01 16:38:26.562  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:38:35.535
+Unexpected IOException with stream: 2020-10-01 16:38:32.847  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:38:39.621
+Unexpected IOException with stream: 2020-10-01 16:38:36.584  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:38:44.652
+Unexpected IOException with stream: 2020-10-01 16:38:40.794  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:38:51.429
+Unexpected IOException with stream: 2020-10-01 16:38:46.245  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:38:56.509
+Unexpected IOException with stream: 2020-10-01 16:38:52.608  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:39:03.967
+Unexpected IOException with stream: 2020-10-01 16:38:59.051  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:39:12.732
+Unexpected IOException with stream: 2020-10-01 16:39:12.732 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@70d9b2a]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:39:12.849
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,createProduitWithExistingId(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:39:12.850
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,createProduitWithExistingId(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.createProduitWithExistingId \00BB OutOfMemory Java heap spa...,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:39:55.523
+Unexpected IOException with stream: 2020-10-01 16:39:48.921  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:39:59.969
+Unexpected IOException with stream: 2020-10-01 16:39:56.968  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:40:06.779
+Unexpected IOException with stream: 2020-10-01 16:40:01.828  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:40:10.622
+Unexpected IOException with stream: 2020-10-01 16:40:08.264  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:40:14.793
+Unexpected IOException with stream: 2020-10-01 16:40:11.992  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:40:22.950
+Unexpected IOException with stream: 2020-10-01 16:40:20.824  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:40:34.587
+Unexpected IOException with stream: 2020-10-01 16:40:34.586 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@54c9f116]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:40:34.587
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,equalsVerifier(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:40:34.707
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,equalsVerifier(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.equalsVerifier \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:41:17.340
+Unexpected IOException with stream: 2020-10-01 16:41:13.942  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:41:21.665
+Unexpected IOException with stream: 2020-10-01 16:41:19.511  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:41:29.575
+Unexpected IOException with stream: 2020-10-01 16:41:24.245  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:41:37.905
+Unexpected IOException with stream: 2020-10-01 16:41:32.972  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:41:46.306
+Unexpected IOException with stream: 2020-10-01 16:41:40.674  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:41:56.553
+Unexpected IOException with stream: 2020-10-01 16:41:53.148  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:42:06.200
+Unexpected IOException with stream: 2020-10-01 16:42:02.333  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:42:19.614
+Unexpected IOException with stream: 2020-10-01 16:42:19.614 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@70288bc3]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:42:19.734
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,updateProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:42:19.735
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,updateProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.updateProduit \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:42:48.309
+Unexpected IOException with stream: 2020-10-01 16:42:46.393  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:42:53.127
+Unexpected IOException with stream: 2020-10-01 16:42:49.837  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:42:58.385
+Unexpected IOException with stream: 2020-10-01 16:42:54.063  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:43:01.798
+Unexpected IOException with stream: 2020-10-01 16:42:59.212  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:43:05.210
+Unexpected IOException with stream: 2020-10-01 16:43:02.620  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:43:10.270
+Unexpected IOException with stream: 2020-10-01 16:43:07.449  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:43:16.881
+Unexpected IOException with stream: 2020-10-01 16:43:12.249  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:43:28.050
+Unexpected IOException with stream: 2020-10-01 16:43:28.050 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@691313a5]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:43:28.050
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,getAllProduits(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:43:28.187
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,getAllProduits(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.getAllProduits \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:44:14.344
+Unexpected IOException with stream: 2020-10-01 16:44:09.634  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:44:20.394
+Unexpected IOException with stream: 2020-10-01 16:44:16.822  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:44:25.749
+Unexpected IOException with stream: 2020-10-01 16:44:21.847  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:44:34.866
+Unexpected IOException with stream: 2020-10-01 16:44:29.418  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:44:40.403
+Unexpected IOException with stream: 2020-10-01 16:44:37.069  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:44:47.488
+Unexpected IOException with stream: 2020-10-01 16:44:44.200  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:44:56.837
+Unexpected IOException with stream: 2020-10-01 16:44:50.726  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:45:07.269
+Unexpected IOException with stream: 2020-10-01 16:45:07.138 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@4ed03b03]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:45:07.269
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,updateNonExistingProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:45:07.391
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,updateNonExistingProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.updateNonExistingProduit \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:45:39.783
+Unexpected IOException with stream: 2020-10-01 16:45:37.120  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:45:48.005
+Unexpected IOException with stream: 2020-10-01 16:45:42.766  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:46:04.728
+Unexpected IOException with stream: 2020-10-01 16:45:50.330  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:46:16.831
+Unexpected IOException with stream: 2020-10-01 16:46:12.576  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:46:23.719
+Unexpected IOException with stream: 2020-10-01 16:46:17.937  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:46:31.280
+Unexpected IOException with stream: 2020-10-01 16:46:26.536  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:46:37.203
+Unexpected IOException with stream: 2020-10-01 16:46:34.161  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DeleteDataChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:46:46.841
+Unexpected IOException with stream: 2020-10-01 16:46:40.691  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:47:01.113
+Unexpected IOException with stream: 2020-10-01 16:46:50.556  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:47:07.559
+Unexpected IOException with stream: 2020-10-01 16:47:02.657  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:47:13.168
+Unexpected IOException with stream: 2020-10-01 16:47:09.069  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropForeignKeyConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:47:34.753
+Unexpected IOException with stream: 2020-10-01 16:47:34.753 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@3088a17b]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:47:34.874
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,deleteProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:47:34.874
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,deleteProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.deleteProduit \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:48:14.662
+Unexpected IOException with stream: 2020-10-01 16:48:10.703  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:18.652
+Unexpected IOException with stream: 2020-10-01 16:48:16.632  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:22.409
+Unexpected IOException with stream: 2020-10-01 16:48:20.313  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:25.821
+Unexpected IOException with stream: 2020-10-01 16:48:23.877  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:29.660
+Unexpected IOException with stream: 2020-10-01 16:48:26.919  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:37.608
+Unexpected IOException with stream: 2020-10-01 16:48:34.741  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:46.933
+Unexpected IOException with stream: 2020-10-01 16:48:43.526  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:48:57.177
+Unexpected IOException with stream: 2020-10-01 16:48:50.451  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:49:19.017
+Unexpected IOException with stream: 2020-10-01 16:49:08.484  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:49:26.387
+Unexpected IOException with stream: 2020-10-01 16:49:20.179  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropForeignKeyConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:49:31.703
+Unexpected IOException with stream: 2020-10-01 16:49:26.975  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:49:41.985
+Unexpected IOException with stream: 2020-10-01 16:49:35.353  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropNotNullConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:49:49.341
+Unexpected IOException with stream: 2020-10-01 16:49:49.222 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@28e389fc]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:49:49.341
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,dtoEqualsVerifier(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:49:49.460
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,dtoEqualsVerifier(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.dtoEqualsVerifier \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:50:24.375
+Unexpected IOException with stream: 2020-10-01 16:50:21.191  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:27.691
+Unexpected IOException with stream: 2020-10-01 16:50:25.914  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:29.441
+Unexpected IOException with stream: 2020-10-01 16:50:28.512  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:32.579
+Unexpected IOException with stream: 2020-10-01 16:50:30.723  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:36.339
+Unexpected IOException with stream: 2020-10-01 16:50:34.110  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:40.648
+Unexpected IOException with stream: 2020-10-01 16:50:38.886  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:46.700
+Unexpected IOException with stream: 2020-10-01 16:50:44.698  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:50:54.786
+Unexpected IOException with stream: 2020-10-01 16:50:49.393  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:51:07.680
+Unexpected IOException with stream: 2020-10-01 16:51:02.200  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:51:13.432
+Unexpected IOException with stream: 2020-10-01 16:51:09.735  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropForeignKeyConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:51:23.312
+Unexpected IOException with stream: 2020-10-01 16:51:21.563  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:51:28.331
+Unexpected IOException with stream: 2020-10-01 16:51:25.994  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropNotNullConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:52:00.025
+Unexpected IOException with stream: 2020-10-01 16:52:00.025 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@464f9ad2]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:52:00.026
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,getProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:52:00.143
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,getProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.getProduit \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:52:49.377
+Unexpected IOException with stream: 2020-10-01 16:52:46.839  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:52:53.347
+Unexpected IOException with stream: 2020-10-01 16:52:51.124  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:52:56.620
+Unexpected IOException with stream: 2020-10-01 16:52:55.095  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:00.230
+Unexpected IOException with stream: 2020-10-01 16:52:58.130  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:07.041
+Unexpected IOException with stream: 2020-10-01 16:53:01.382  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:12.012
+Unexpected IOException with stream: 2020-10-01 16:53:10.278  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:17.607
+Unexpected IOException with stream: 2020-10-01 16:53:14.337  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:24.827
+Unexpected IOException with stream: 2020-10-01 16:53:20.048  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:32.935
+Unexpected IOException with stream: 2020-10-01 16:53:27.264  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:53.525
+Unexpected IOException with stream: 2020-10-01 16:53:53.525 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@60cbd8cc]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:53:53.526
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,getNonExistingProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:53:53.644
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,getNonExistingProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.getNonExistingProduit \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:54:48.856
+Unexpected IOException with stream: 2020-10-01 16:54:45.043  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:54:53.147
+Unexpected IOException with stream: 2020-10-01 16:54:50.821  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:54:57.020
+Unexpected IOException with stream: 2020-10-01 16:54:55.422  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:00.222
+Unexpected IOException with stream: 2020-10-01 16:54:58.611  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:03.266
+Unexpected IOException with stream: 2020-10-01 16:55:01.431  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:06.219
+Unexpected IOException with stream: 2020-10-01 16:55:04.659  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:11.196
+Unexpected IOException with stream: 2020-10-01 16:55:08.653  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:21.898
+Unexpected IOException with stream: 2020-10-01 16:55:14.126  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:27.216
+Unexpected IOException with stream: 2020-10-01 16:55:23.599  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropDefaultValueChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:33.769
+Unexpected IOException with stream: 2020-10-01 16:55:28.407  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropForeignKeyConstraintChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:40.462
+Unexpected IOException with stream: 2020-10-01 16:55:40.461 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@4951154]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:55:40.578
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,testEntityFromId(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:55:40.579
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,testEntityFromId(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.testEntityFromId \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:56:11.998
+Unexpected IOException with stream: 2020-10-01 16:56:09.196  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:16.579
+Unexpected IOException with stream: 2020-10-01 16:56:12.952  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:21.845
+Unexpected IOException with stream: 2020-10-01 16:56:17.512  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateProcedureChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:25.224
+Unexpected IOException with stream: 2020-10-01 16:56:22.899  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:30.668
+Unexpected IOException with stream: 2020-10-01 16:56:26.608  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateTableChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:41.511
+Unexpected IOException with stream: 2020-10-01 16:56:38.234  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateViewChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:46.345
+Unexpected IOException with stream: 2020-10-01 16:56:43.676  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropAllForeignKeyConstraintsChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:56:50.348
+Unexpected IOException with stream: 2020-10-01 16:56:47.875  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/DropColumnChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:57:00.907
+Unexpected IOException with stream: 2020-10-01 16:57:00.790 ERROR 23490 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@9239015] to prepare test instance [com.mycompany.myapp.web.rest.ProduitResourceIntTest@2c817265]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:57:01.025
+Unexpected IOException: 5,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,createProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,null,null
+
+
+# Created at 2020-10-01T16:57:01.025
+Unexpected IOException: 7,1,com.mycompany.myapp.web.rest.ProduitResourceIntTest,createProduit(com.mycompany.myapp.web.rest.ProduitResourceIntTest),null,Java heap space,null,Java heap space,ProduitResourceIntTest.createProduit \00BB OutOfMemory Java heap space,java.lang.OutOfMemoryError: Java heap space\000A
+
+
+# Created at 2020-10-01T16:57:01.025
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.mycompany.myapp.web.rest.ProduitResourceIntTest,null,null,null
+
+
+# Created at 2020-10-01T16:57:01.144
+Unexpected IOException: 1,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.mycompany.myapp.web.rest.UserJWTControllerIntTest,null,null,null
+
+
+# Created at 2020-10-01T16:57:56.005
+Unexpected IOException with stream: 2020-10-01 16:57:54.302  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/AlterSequenceChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+
+# Created at 2020-10-01T16:57:58.627
+Unexpected IOException with stream: 2020-10-01 16:57:57.425  WARN 23490 --- [           main] quibaseServiceLocatorApplicationListener : Unexpected failure when loading class resource URL [jar:file:/home/spark/.m2/repository/org/liquibase/liquibase-core/3.5.5/liquibase-core-3.5.5.jar!/liquibase/change/core/CreateIndexChange.class]
+
+java.lang.OutOfMemoryError: Java heap space
+
+
+

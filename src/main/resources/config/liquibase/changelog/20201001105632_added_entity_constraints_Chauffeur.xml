@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Chauffeur.
+    -->
+    <changeSet id="20201001105632-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="permis_de_conduit_id"
+                                 baseTableName="chauffeur"
+                                 constraintName="fk_chauffeur_permis_de_conduit_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="permis_de_conduit"/>
+
+    </changeSet>
+</databaseChangeLog>

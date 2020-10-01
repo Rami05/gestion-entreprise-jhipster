@@ -1,0 +1,62 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="jhipsterApp.chauffeur.home.title">Chauffeurs</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-chauffeur" [routerLink]="['/chauffeur/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span  jhiTranslate="jhipsterApp.chauffeur.home.createLabel">
+            Create new Chauffeur
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <br/>
+    <div class="table-responsive" *ngIf="chauffeurs">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span jhiTranslate="global.field.id">ID</span></th>
+            <th><span jhiTranslate="jhipsterApp.chauffeur.identite">Identite</span></th>
+            <th><span jhiTranslate="jhipsterApp.chauffeur.cin">Cin</span></th>
+            <th><span jhiTranslate="jhipsterApp.chauffeur.permis_de_conduit">Permis De Conduit</span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let chauffeur of chauffeurs ;trackBy: trackId">
+                <td><a [routerLink]="['/chauffeur', chauffeur.id, 'view' ]">{{chauffeur.id}}</a></td>
+                <td>{{chauffeur.identite}}</td>
+                <td>{{chauffeur.cin}}</td>
+                <td>
+                    <div *ngIf="chauffeur.permis_de_conduitId">
+                        <a [routerLink]="['../permis-de-conduit', chauffeur.permis_de_conduitId , 'view' ]" >{{chauffeur.permis_de_conduitNum_permis}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['/chauffeur', chauffeur.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/chauffeur', chauffeur.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', 'chauffeur', { outlets: { popup: chauffeur.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

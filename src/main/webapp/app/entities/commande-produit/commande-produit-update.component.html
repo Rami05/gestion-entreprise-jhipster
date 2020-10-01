@@ -1,0 +1,49 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-commande-produit-heading" jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.home.createOrEditLabel">Create or edit a COMMANDE PRODUIT</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!cOMMANDE_PRODUIT.id">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="cOMMANDE_PRODUIT.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.dateCreation" for="field_dateCreation">Date Creation</label>
+                    <div class="input-group">
+                        <input id="field_dateCreation" type="text" class="form-control" name="dateCreation" ngbDatepicker  #dateCreationDp="ngbDatepicker" [(ngModel)]="cOMMANDE_PRODUIT.dateCreation"
+                        />
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="dateCreationDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.dateModification" for="field_dateModification">Date Modification</label>
+                    <div class="d-flex">
+                        <input id="field_dateModification" type="datetime-local" class="form-control" name="dateModification" [(ngModel)]="dateModification" placeholder="YYYY-MM-DD HH:mm"
+                        />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="jhipsterApp.cOMMANDE_PRODUIT.etat" for="field_etat">Etat</label>
+                    <select class="form-control" name="etat" [(ngModel)]="cOMMANDE_PRODUIT.etat" id="field_etat" >
+                        <option value="EN_COURS">{{'jhipsterApp.Etat.EN_COURS' | translate}}</option>
+                        <option value="LIVRER">{{'jhipsterApp.Etat.LIVRER' | translate}}</option>
+                        <option value="ANNULER">{{'jhipsterApp.Etat.ANNULER' | translate}}</option>
+                    </select>
+                </div>
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

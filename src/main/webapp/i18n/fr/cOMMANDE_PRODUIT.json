@@ -1,0 +1,23 @@
+{
+    "jhipsterApp": {
+        "cOMMANDE_PRODUIT": {
+            "home": {
+                "title": "COMMANDE_PRODUITS",
+                "createLabel": "Créer un nouveau COMMANDE PRODUIT",
+                "createOrEditLabel": "Créer ou éditer un COMMANDE PRODUIT"
+            },
+            "created": "Un nouveau COMMANDE PRODUIT a été créé avec l'identifiant {{ param }}",
+            "updated": "Le COMMANDE PRODUIT avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le COMMANDE PRODUIT avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le COMMANDE PRODUIT {{ id }} ?"
+            },
+            "detail": {
+                "title": "COMMANDE PRODUIT"
+            },
+            "dateCreation": "Date Creation",
+            "dateModification": "Date Modification",
+            "etat": "Etat"
+        }
+    }
+}

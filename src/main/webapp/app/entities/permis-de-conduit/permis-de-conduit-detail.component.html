@@ -1,0 +1,36 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="permis_de_conduit">
+            <h2><span jhiTranslate="jhipsterApp.permis_de_conduit.detail.title">Permis De Conduit</span> {{permis_de_conduit.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jhipsterApp.permis_de_conduit.num_permis">Num Permis</span></dt>
+                <dd>
+                    <span>{{permis_de_conduit.num_permis}}</span>
+                </dd>
+                <dt><span jhiTranslate="jhipsterApp.permis_de_conduit.copie_permis">Copie Permis</span></dt>
+                <dd>
+                    <div *ngIf="permis_de_conduit.copie_permis">
+                        <a (click)="openFile(permis_de_conduit.copie_permisContentType, permis_de_conduit.copie_permis)">
+                            <img [src]="'data:' + permis_de_conduit.copie_permisContentType + ';base64,' + permis_de_conduit.copie_permis" style="max-width: 100%;" alt="permis_de_conduit image"/>
+                        </a>
+                        {{permis_de_conduit.copie_permisContentType}}, {{byteSize(permis_de_conduit.copie_permis)}}
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/permis-de-conduit', permis_de_conduit.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

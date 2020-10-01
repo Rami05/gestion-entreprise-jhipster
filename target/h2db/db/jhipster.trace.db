@@ -1,0 +1,39 @@
+2020-10-01 16:31:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "DATABASECHANGELOGLOCK" non trouvée
+Table "DATABASECHANGELOGLOCK" not found; SQL statement:
+select count(*) from PUBLIC.DATABASECHANGELOGLOCK [42102-197]
+2020-10-01 16:31:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Colonne "ENTREPRISE_ID" non trouvée
+Column "ENTREPRISE_ID" not found; SQL statement:
+ALTER TABLE PUBLIC.compte_bancaire ADD CONSTRAINT fk_compte_bancaire_entreprise_id FOREIGN KEY (entreprise_id) REFERENCES PUBLIC.entreprise (id) [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:682)
+	at org.h2.table.IndexColumn.mapColumns(IndexColumn.java:74)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:212)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:205)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:307)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:55)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:113)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1277)
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1259)
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:582)
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:51)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:79)
+	at liquibase.Liquibase.update(Liquibase.java:214)
+	at liquibase.Liquibase.update(Liquibase.java:192)
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:431)
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:388)
+	at io.github.jhipster.config.liquibase.AsyncSpringLiquibase.initDb(AsyncSpringLiquibase.java:103)
+	at io.github.jhipster.config.liquibase.AsyncSpringLiquibase.lambda$afterPropertiesSet$0(AsyncSpringLiquibase.java:83)
+	at io.github.jhipster.async.ExceptionHandlingAsyncTaskExecutor.lambda$createWrappedRunnable$1(ExceptionHandlingAsyncTaskExecutor.java:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
